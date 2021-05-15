@@ -3,4 +3,4 @@ project(playgroud_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(playgroud_cpp main.cpp)
+add_executable(playgroud_cpp main.cpp Student.cpp Student.h)

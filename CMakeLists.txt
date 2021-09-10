@@ -11,4 +11,4 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(Boost 1.76.0 REQUIRED COMPONENTS filesystem)
 include_directories(${Boost_INCLUDE_DIRS})
 
-add_executable(playground_cpp main.cpp base/base.cpp base/base.h base/threadpool/thread_pool.cpp base/threadpool/thread_pool.h base/threadpool/main.cpp)
+add_executable(playground_cpp main.cpp base/base.cpp base/base.h base/threadpool/thread_pool.cpp base/threadpool/thread_pool.h base/threadpool/main.cpp base/server/server.cpp base/client/client.cpp)

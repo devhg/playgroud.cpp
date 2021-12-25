@@ -38,7 +38,6 @@ int main() {
 
 
     boost::uuids::random_generator gen;
-    std::string uuid = boost::lexical_cast<std::string>(gen());
-    std::cout << uuid << std::endl;
+    std::cout << boost::lexical_cast<std::string>(gen()) << std::endl;
     return 0;
 }
